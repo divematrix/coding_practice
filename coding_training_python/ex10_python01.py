@@ -1,3 +1,4 @@
+'''
 # 연습문제 10. 셀프계산대
 	다수의 입력 값으로 금액 계산을 하다 보면 간혹 정확성에 문제가 생기기도 한다.
 
@@ -21,3 +22,31 @@
 ## 도전 과제
 	- 입력 값으로 숫자만 받을 수 있도록 프로그램을 수정해보자. 숫자가 입력될 때까지 진행되지 않도록 하라.
 	- 제한되지 않은 개수의 물건을 입력 받을 수 있도록 프로그램을 수정해보자. 즉, 물건에 대한 내용이 입력되지 않을 때까지 입력을 받고 세금과 합계 금액을 계산하자.
+'''
+
+price_item1 = float(input("price of item 1: "))
+
+quantity_item1 = float(input("Quantity of item 1: "))
+
+price_item2 = float(input("price of item 2: "))
+
+quantity_item2 = float(input("Quantity of item 2: "))
+
+price_item3 = float(input("price of item 3: "))
+
+quantity_item3 = float(input("Quantity of item 3: "))
+
+subtotal = 0
+subtotal += price_item1 * quantity_item1
+subtotal += price_item2 * quantity_item2
+subtotal += price_item3 * quantity_item3
+
+print("Subtotal: %.2f" % subtotal)
+
+tax = 0.055 * subtotal
+
+print("Tax: %.2f" % tax)
+
+total = subtotal + tax
+
+print("Total: %.2f" % total)

@@ -1,3 +1,4 @@
+'''
 # 연습문제 11. 환율 변환
 	때에 따라서는 환율을 다루는 경우도 생길 것이다. 이 경우 최대한 정확하게 계산되도록 해야 한다.
 	환율을 변환하는 프로그램을 작성하라. 여기에서는 유로에서 미국 달러로 변환시킨다.
@@ -20,3 +21,28 @@
 ## 도전 과제
 	- 환율표를 프로그램에 넣은 다음 환율 대신 국가 이름을 입력 받도록 프로그램을 수정해보자.
 	- 애플리케이션에 별도의 API를 적용하여 현재의 업데이트된 환율을 적용하는 프로그램으로 수정해보자.
+'''
+
+euro = int(input("How many Euros are you exchanging? "))
+
+exRate = float(input("What is the exchange rate? "))
+
+exDollar = euro * exRate / 100
+
+# 자리수 조절
+def toCeil(number, underpoint):
+	if type(underpoint) != type(1):
+		return False
+
+	number *= 10 ** underpoint
+
+	import math
+	number = math.ceil(number)
+	
+	number /= 10 ** underpoint
+	
+	return number
+
+exDollar = toCeil(exDollar, 2)
+
+print("{} Euros at an exchange rate of {} is {} dollars".format(euro, exRate, exDollar))

@@ -1,3 +1,4 @@
+'''
 # 연습문제 06. 퇴직 계산기
 	여러분의 컴퓨터는 올해가 몇 년인지 알고 있다. 즉, 프로그램에 연도 정보를 넣을 수 있다는 얘기다. 여러분은 단지 사용하는 프로그래밍 언어에서 어떻게 날짜 정보를 얻을 수 있는지만 조사하면 된다. 정년까지 몇 년 남았는지, 퇴직하는 해는 몇 년이 되는지를 계산하는 프로그램을 작성하라. 이 프로그램은 현재 나이와 퇴직하고자 하는 나이를 입력 받아 다음의 출력 예와 같이 나타낸다.
 
@@ -13,3 +14,14 @@
 
 ## 도전 과제
 	- 이미 퇴직했을 나이를 입력하면 음수 값이 출력되는 상황이 발생하는데, 이 상황을 해결하도록 프로그램을 수정해보자.
+'''
+
+a = int(input("What is your current age? "))
+
+b = int(input("At what age would you like to retire? "))
+
+import datetime
+
+current = datetime.datetime.now()
+
+print("you have {} years left until you can retire. It`s {}, so you can retire in {}.".format(b-a, current.year, current.year + b - a))
