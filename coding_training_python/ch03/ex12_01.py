@@ -1,12 +1,12 @@
 # 연습문제 12. Simple Interest
 
-principal = int(input("Enter the principal: "))
+principal = float(input("Enter the principal: "))
 
-inputRate = float(input("Enter the rate of interest: "))
-realRate = inputRate / 100
+interest_Rate_annual_percent = float(input("Enter the rate of interest: "))
+interest_Rate_annual = interest_Rate_annual_percent / 100
 
-term = float(input("Enter the number of years: "))
+term_annual = float(input("Enter the number of years: "))
 
-A = principal * (1 + realRate * term)
+principal_and_interest = principal * (1 + interest_Rate_annual * term_annual)
 
-print("After {:.0f} years at {}%, the investment will be worth ${:.0f}".format(term, inputRate, A))
+print("After {:.0f} years at {}%, the investment will be worth ${:.0f}".format(term_annual, interest_Rate_annual_percent, principal_and_interest))
