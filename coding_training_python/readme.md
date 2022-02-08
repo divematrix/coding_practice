@@ -1,17 +1,40 @@
 # 책 정보
-	코딩 트레이닝 - 프로그래밍 인사이트
-	Exercises for Programmers
-	57 Challenges to Develop Your Coding Skills
+	Title
+		코딩 트레이닝
 
-	브라이언 호건 지음
-	정기훈 옮김
+	Subtitle
+		새로운 언어를 배울 때 다시 풀어보는 57개 연습문제
+
+	Author
+		브라이언 호건
+
+	Translation
+		정기훈
+
+	Publisher
+		 프로그래밍 인사이트
 
 	ISBN 978-89-6626-185-7
 
-# 책 구성
-	Ch 01. 문제를 코드로 풀어내기
+# 원본 책 정보
+	Title
+		Exercises for Programmers
 
-	Ch 02. 입력, 프로세싱, 출력
+	Subtitle
+		57 Challenges to Develop Your Coding Skills
+
+	Author
+		Brian P. Hogan
+
+	Publisher
+		Pragmatic Bookshelf
+
+	ISBN 978-16-8050-122-3
+
+# 책 구성
+	01장 문제를 코드로 풀어내기
+
+	02장 입력, 프로세싱, 출력
 		연습문제 01. 인사하기
 		연습문제 02. 글자 수 세기
 		연습문제 03. 따옴표 출력
@@ -20,7 +43,7 @@
 		연습문제 06. 퇴직 계산기
 		지금까지 배운 내용
 
-	Chapter 03. 연산
+	03장 연산
 		연습문제 07. 직사각형 방의 면적
 		연습문제 08. 피자 파티
 		연습문제 09. 페인트 계산기
@@ -30,10 +53,10 @@
 		연습문제 13. 복리 계산
 		지금까지 배운 내용
 
-	Chapter 04. 의사결정
-	Chapter 05. 함수
-	Chapter 06. 반복
-	Chapter 07. 자료구조
-	Chapter 08. 파일작업
-	Chapter 09. 외부 서비스와 작업하기
-	Chapter 10. 완전한 프로그램
+	04장 의사결정
+	05장 함수
+	06장 반복
+	07장 자료구조
+	08장 파일작업
+	09장 외부 서비스와 작업하기
+	10장 완전한 프로그램

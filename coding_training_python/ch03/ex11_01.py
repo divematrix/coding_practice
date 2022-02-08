@@ -1,10 +1,10 @@
 # 연습문제 11. Currency Conversion
 
-amountfrom = int(input("How many Euros are you exchanging? "))
+amount_from = float(input("How many Euros are you exchanging? "))
 
-ratefrom = float(input("What is the exchange rate? "))
-rateto = 100
+rate_from = float(input("What is the exchange rate? "))
+rate_to = 100
 
-amountto = amountfrom * ratefrom / rateto
+amount_to = amount_from * rate_from / rate_to
 
-print("{} Euros at an exchange rate of {:.2f} is {:.2f} dollars".format(amountfrom, ratefrom, amountto))
+print("{:.0f} Euros at an exchange rate of {:.2f} is {:.2f} dollars".format(amount_from, rate_from, amount_to))
