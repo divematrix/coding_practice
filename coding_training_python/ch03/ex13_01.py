@@ -1,4 +1,4 @@
-# 연습문제 13. Compound Interest
+# 연습문제 13. 복리 계산 Compound Interest
 
 principal = float(input("What is the principal amount? "))
 

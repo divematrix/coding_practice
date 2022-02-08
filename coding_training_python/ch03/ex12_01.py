@@ -1,4 +1,4 @@
-# 연습문제 12. Simple Interest
+# 연습문제 12. 단리 계산 Simple Interest
 
 principal = float(input("Enter the principal: "))
 

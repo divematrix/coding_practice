@@ -1,4 +1,4 @@
-# 연습문제 11. Currency Conversion
+# 연습문제 11. 환율 변환 Currency Conversion
 
 amount_from = float(input("How many Euros are you exchanging? "))
 
