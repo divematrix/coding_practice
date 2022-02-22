@@ -9,5 +9,6 @@ def karvonenHeartRate(age, restingHR, intensity):
 
 print("Intensity  | Rate    ")
 print("-----------|---------")
+
 for i in range(55, 100, 5):
 	print("{}%        | {:.0f} bpm".format(i, karvonenHeartRate(inputAge, pulse, i / 100)))
