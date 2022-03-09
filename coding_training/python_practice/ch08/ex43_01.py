@@ -14,7 +14,7 @@ def sethtml(title, author):
 	base.append('\t<title>{}</title>\n'.format(title))
 	base.append('</head>\n')
 	base.append('<body>\n')
-	base.append('\t<b>auto index.html generator</b>\n')
+	base.append('\t<b>자동 index.html 생성기</b>\n')
 	base.append('</body>\n')
 	base.append('</html>\n')
 	return base
@@ -26,7 +26,8 @@ css = input("Do you want a folder for CSS? ")
 
 os.makedirs('./coding_training/python_practice/ch08/ex43', exist_ok=True)
 
-f = open('./coding_training/python_practice/ch08/ex43/index.html', 'w')
+# 인코딩 설정 안하면 한글이 깨진다.
+f = open('./coding_training/python_practice/ch08/ex43/index.html', 'w', encoding='utf-8')
 f.writelines(sethtml(title, author))
 f.close()
 
